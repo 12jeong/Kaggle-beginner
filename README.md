@@ -25,12 +25,14 @@ pip install kaggle
 ``` 
 
 ### 4. kaggle API에 키 등록
+```
 kaggle my profile >  ... account > create API token > 다운로드 한 'kaggle.json' 파일을 C:\Users\{user_name}\kaggle\kaggle.json 경로로 이동
+```
 
 ### 5. 필요한 데이터 다운로드
+```
 kaggle competitions download -c santander-product-recommendation 
-
-
+```
 
 ## 프로젝트를 위한 가상환경 생성
 
